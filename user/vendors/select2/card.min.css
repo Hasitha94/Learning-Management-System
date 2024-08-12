@@ -1,0 +1,23 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 20%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+    padding: 2px 16px;
+}
+
+.card-body {
+    display: flex;
+    width: auto;
+    gap: 40px;
+}
+
+.card-container h4 {
+    text-align: center;
+}
